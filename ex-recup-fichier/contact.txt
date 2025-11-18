@@ -4,4 +4,3 @@ Arya Stark
 Alice Dupont
 Jean Martin
 test
-Marie Curie
