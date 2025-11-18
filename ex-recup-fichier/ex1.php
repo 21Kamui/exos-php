@@ -1,5 +1,5 @@
 <?php
-$contact = ["Alice Dupont", "John Doe", "Jean Martin", "Marie Curie"];
+$contact = ["Alice Dupont", "John Doe", "Jean Martin",];
 $existants = file("contact.txt", FILE_IGNORE_NEW_LINES);
 
 
