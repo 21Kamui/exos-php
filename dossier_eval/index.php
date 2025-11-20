@@ -124,7 +124,7 @@ $courses = $bdd->query("SELECT DISTINCT course FROM `100` ORDER BY course")->fet
                 <td><?= $row['course'] ?></td>
                 <td><?= $row['temps'] ?></td>
                 <td>
-                    <a href="modifier.php?id=<?= $row['id'] ?>">Modifier</a>
+                    <a href="edit.php?id=<?= $row['id'] ?>">Modifier</a>
                 </td>
             </tr>
             <?php endforeach; ?>
